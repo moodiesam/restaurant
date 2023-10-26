@@ -16,22 +16,22 @@ const menuPage = () => {
 
     menuItem1.classList.add('menuItem');
     menuItem1.setAttribute('id', 'toRemove');
-    menuItem1.innerHTML = "Menu Item 1 - $25";
+    menuItem1.innerHTML = "Butcher's Burger - $25";
     infoDiv.appendChild(menuItem1);
 
     menuItem2.classList.add('menuItem');
     menuItem2.setAttribute('id', 'toRemove');
-    menuItem2.innerHTML = "Menu Item 2 - $25";
+    menuItem2.innerHTML = "Beef Dip Sandwich - $23";
     infoDiv.appendChild(menuItem2);
 
     menuItem3.classList.add('menuItem');
     menuItem3.setAttribute('id', 'toRemove');
-    menuItem3.innerHTML = "Menu Item 3 - $25";
+    menuItem3.innerHTML = "Caesar Salad - $19";
     infoDiv.appendChild(menuItem3);
 
     menuItem4.classList.add('menuItem');
     men.setAttribute('id', 'toRemove');
-    menuItem4.innerHTML = "Menu Item 4 - $25";
+    menuItem4.innerHTML = "Sticky Toffee Pudding - $25";
     infoDiv.appendChild(menuItem4);
 }
 

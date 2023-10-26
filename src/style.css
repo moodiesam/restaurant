@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#content {
+    background-image: url('./images/food.jpg');
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 50px 1fr 100px;
+    
+    
+}
+
+.headline {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    justify-content: center;
+    justify-items: center;
+    background-color: #0f172a;
+    
+}
+
+.tab {
+    min-width: 80px;
+    height: 50px;
+    background-color: #0f172a;
+    border-radius: 3px;
+    color: #e2e8f0;
+}
+
+.info {
+    background-color: rgb(148,163,184,.7);
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    width: 800px;
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.banner {
+    display: grid;
+    height: 100px;
+    width: 100vw;
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    font-size: 40px;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    justify-content: center;
+    justify-items: center;
+}
+
+.review {
+    width: 200px;
+    color: #e2e8f0;
+    border-radius: 5px;
+    background-color: rgb(30,41,59,.9);
+    padding: 5px;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    gap: 3px;
+}
